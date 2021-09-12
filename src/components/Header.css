@@ -1,0 +1,126 @@
+.header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--general-color);
+    z-index: 1000;
+}
+.header .header-menu{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header .logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo img{
+    width: 25%;
+    padding: 1px 5px 1px 5px;
+}
+.header .logo span{
+    margin-left: 20px;
+    width: 75%;
+    font-size: 25px;
+    padding: 1px 5px 1px 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header .logo span:hover{
+    color: #B76529;
+}
+/*
+
+.header .search{
+    width: 40%;
+    height: 75%;
+}
+.header .search input{
+    width: 80%;
+    height: 100%;
+    border-radius: 9999px;
+    margin-left: 10px;
+    background: #f1f3f5;
+    border: 2px solid #f1f3f5;
+    padding: 0 0 0 15px;
+}
+.header .search input:focus{
+    border-color: #339af0;
+    outline: none;  
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(51,154,240,0.3); 
+    box-shadow: 0px 0px 15px 5px rgba(51,154,240,0.3);
+}
+.header .search input::placeholder{
+    color: #737475;
+}
+.header .search .search-button{
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.header .search .search-button:hover{
+    color: #339af0;
+}
+*/
+
+.header .shopping:hover{
+    cursor: pointer;
+}
+
+.header .header-menu .shopping  span {
+    display: flex;
+}
+
+.header .header-menu .shopping  span .carrito-button{
+   
+    display: flex;
+   
+}
+.header .header-menu .shopping  span .carrito-button .cart-number{
+    border-radius: 50%;
+    position: absolute;
+    margin-left :20px;
+    margin-top :-15px;
+    width: 20px;
+    height: 20px;
+    background: crimson;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header-menu .shopping  span .carrito-button .shopping-button{
+    padding: 0 10px 0 10px;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+}
+
+.header .shopping  span .carrito{
+    font-weight: bolder;
+    color: #fff;
+}
+.header .shopping  .arrowDown{
+    font-size: 0.8rem;
+    color: #fff;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+
+    .header .logo img{
+        display: none;
+    }
+}

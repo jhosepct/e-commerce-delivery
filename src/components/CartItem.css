@@ -1,0 +1,70 @@
+.cart-item{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: .1rem solid rgba(0,0,0,.2);
+    padding: 0.5rem 0 0.5rem 0;
+    font-weight: bolder;
+}
+.cart-item .img{
+    width: 30%;
+    align-self: center;
+    padding: 5px;
+}
+.cart-item .img img{
+    width: 100%;
+}
+.cart-item .mini-cart{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cart-item .mini-cart p{
+    color: #606060;
+   
+}
+.cart-item .mini-cart .price{
+    font-size: 0.8rem;
+    margin: 5px 0 15px 0;
+}
+.cart-item .mini-cart .quantity{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #dedede;
+    border-radius: 14px;
+    padding: 0 5px;
+    height: 31px;
+    max-width: 201px;
+    align-self: center;
+    line-height: 30px;
+}
+.cart-item .mini-cart .quantity .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 3px;
+    border: 2px solid #fff;
+    color: #606060;
+    
+}
+.cart-item .delete-product{
+    width: 10%;
+}
+.cart-item .delete-product .selectDel{
+    cursor: pointer;
+}
+.cart-item .delete-product .icon-button{
+    font-size: 20px;
+    width: 100%;
+    color: var(--general-color);
+}

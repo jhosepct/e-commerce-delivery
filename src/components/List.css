@@ -1,0 +1,18 @@
+.section{
+    position: relative;
+}
+.section .title-section{
+    background-color: aqua;
+    width: 200px;
+    text-align: center;
+}
+
+.list{
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 9%;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}

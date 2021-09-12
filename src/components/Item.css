@@ -1,0 +1,57 @@
+.item{
+    padding: 2.5rem 0.5rem 1.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item .image{
+    width: 100%;
+    justify-content: center;
+}
+
+.item .title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item .actions{
+    width: 100%;
+    border-top: solid 1px #bbb;
+    padding: 5px 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .actions div{
+    width: 30%;
+    font-size: 15px;
+    color: #27ae60;
+    font-weight: bolder;
+    padding: 0.3rem;
+}
+.item .actions .buttonAdd{
+    width: 60%;
+    border: 0;
+    border-radius: 9999px;
+    border: 2px solid var(--general-color);
+    color: var(--general-color);
+    background: #fff;
+    font-weight: bold;
+    padding: 0.4rem;
+    width: 100%;
+}
+.item .actions button:hover{
+    background-color: var(--general-color);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
